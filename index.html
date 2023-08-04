@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Galeria de fotos</h1>
+    <button type="submit">nova imagem +</button>
+  </header>
+  <form>
+    <h2>Inserir nova imagem</h2>
+    <input type="url" id="inserir-imagem-url" required placeholder=" URL da imagem">
+    <button type="submit">adicionar</button>
+    <button type="reset" id="cancel-button">cancelar</button>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="mian.js"></script>
+  <ul>
+    <li>
+      <img src="./images_M9/images/foto1.jpg" alt="">
+      <div class="overlay-imagens">
+        <a href="./images_M9/images/foto1.jpg" target="_blank">Ver a imagem em tela cheia</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images_M9/images/foto2.jpg" alt="">
+      <div class="overlay-imagens">
+        <a href="./images_M9/images/foto2.jpg" target="_blank">Ver a imagem em tela cheia</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images_M9/images/foto3.jpg" alt="">
+      <div class="overlay-imagens">
+        <a href="./images_M9/images/foto3.jpg" target="_blank">Ver a imagem em tela cheia</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images_M9/images/foto4.jpg" alt="">
+      <div class="overlay-imagens">
+        <a href="./images_M9/images/foto4.jpg" target="_blank">Ver a imagem em tela cheia</a>
+      </div>
+    </li>
+  </ul>
+</body>
+
+</html>
